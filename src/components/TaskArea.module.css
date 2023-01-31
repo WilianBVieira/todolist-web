@@ -1,0 +1,33 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.tasksCreated b {
+  color: var(--blue-300);
+}
+
+.tasks a {
+  background: var(--gray-400);
+  border-radius: 8px;
+  color: var(--gray-200);
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+.tasksCompleted b {
+  color: var(--purple-300);
+}
+
+.tasks header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tasks header section {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
